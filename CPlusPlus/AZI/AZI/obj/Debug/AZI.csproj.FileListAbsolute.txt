@@ -1,0 +1,7 @@
+C:\Users\ПК\source\repos\AZI\AZI\bin\Debug\AZI.exe.config
+C:\Users\ПК\source\repos\AZI\AZI\bin\Debug\AZI.exe
+C:\Users\ПК\source\repos\AZI\AZI\bin\Debug\AZI.pdb
+C:\Users\ПК\source\repos\AZI\AZI\obj\Debug\AZI.csproj.AssemblyReference.cache
+C:\Users\ПК\source\repos\AZI\AZI\obj\Debug\AZI.csproj.CoreCompileInputs.cache
+C:\Users\ПК\source\repos\AZI\AZI\obj\Debug\AZI.exe
+C:\Users\ПК\source\repos\AZI\AZI\obj\Debug\AZI.pdb

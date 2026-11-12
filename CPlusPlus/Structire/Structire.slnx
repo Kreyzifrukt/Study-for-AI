@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Structire/Structire.vcxproj" Id="ec56ece2-22e0-47af-add7-cb70eb04dfae" />
+</Solution>

@@ -1,0 +1,3 @@
+﻿  Vlasni_type_Of.cpp
+C:\Users\ПК\source\repos\Vlasni_type_Of\Vlasni_type_Of\Vlasni_type_Of.cpp(29,17): warning C4305: '=': truncation from 'double' to 'float'
+  Vlasni_type_Of.vcxproj -> C:\Users\ПК\source\repos\Vlasni_type_Of\x64\Debug\Vlasni_type_Of.exe

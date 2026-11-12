@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u041F\u041A\\source\\repos\\Structire\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC56ECE2-22E0-47AF-ADD7-CB70EB04DFAE}|Structire\\Structire.vcxproj|C:\\Users\\\u041F\u041A\\source\\repos\\Structire\\Structire\\Structire.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EC56ECE2-22E0-47AF-ADD7-CB70EB04DFAE}|Structire\\Structire.vcxproj|solutionrelative:Structire\\Structire.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Structire.cpp",
+              "DocumentMoniker": "C:\\Users\\\u041F\u041A\\source\\repos\\Structire\\Structire\\Structire.cpp",
+              "RelativeDocumentMoniker": "Structire\\Structire.cpp",
+              "ToolTip": "C:\\Users\\\u041F\u041A\\source\\repos\\Structire\\Structire\\Structire.cpp",
+              "RelativeToolTip": "Structire\\Structire.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-13T11:09:49.3Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
