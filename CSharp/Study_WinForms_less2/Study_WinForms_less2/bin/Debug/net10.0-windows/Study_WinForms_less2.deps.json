@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Study_WinForms_less2/1.0.0": {
+        "runtime": {
+          "Study_WinForms_less2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Study_WinForms_less2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

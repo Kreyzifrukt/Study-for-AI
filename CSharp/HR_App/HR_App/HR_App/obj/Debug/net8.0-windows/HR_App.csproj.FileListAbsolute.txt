@@ -1,0 +1,17 @@
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\bin\Debug\net8.0-windows\HR_App.exe
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\bin\Debug\net8.0-windows\HR_App.deps.json
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\bin\Debug\net8.0-windows\HR_App.runtimeconfig.json
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\bin\Debug\net8.0-windows\HR_App.dll
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\bin\Debug\net8.0-windows\HR_App.pdb
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.Form1.resources
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.Properties.Resources.resources
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.csproj.GenerateResource.cache
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.AssemblyInfoInputs.cache
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.AssemblyInfo.cs
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.csproj.CoreCompileInputs.cache
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.dll
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\refint\HR_App.dll
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.pdb
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\HR_App.genruntimeconfig.cache
+C:\Users\popov_v\Documents\Projects\CSharp1\HR_App\HR_App\obj\Debug\net8.0-windows\ref\HR_App.dll

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "jca6aREaisg=",
+  "success": true,
+  "projectFilePath": "E:\\Kods\\study for AI\\CSharp\\HR_App\\HR_App\\HR_App\\HR_App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ПК\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.33\\microsoft.netcore.app.ref.8.0.33.nupkg.sha512",
+    "C:\\Users\\ПК\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.33\\microsoft.windowsdesktop.app.ref.8.0.33.nupkg.sha512",
+    "C:\\Users\\ПК\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.33\\microsoft.aspnetcore.app.ref.8.0.33.nupkg.sha512",
+    "C:\\Users\\ПК\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.33\\microsoft.netcore.app.host.win-x64.8.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

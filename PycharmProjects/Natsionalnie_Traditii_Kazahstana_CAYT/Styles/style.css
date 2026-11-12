@@ -1,0 +1,262 @@
+/* --- Сброс стилей и Глобальные настройки --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Цветовая палитра */
+    --color-primary: #008080; /* Сине-бирюзовый (вдохновлен флагом) */
+    --color-secondary: #FFC000; /* Золотой (вдохновлен орнаментами) */
+    --color-text: #333333;
+    --color-light-bg: #f8f8f8;
+    --color-white: #ffffff;
+
+    /* Шрифты */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--font-body);
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-white);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* --- Шапка и Навигация --- */
+.main-header {
+    background: var(--color-white);
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: var(--color-secondary);
+}
+
+.main-header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-header nav ul li {
+    margin-left: 25px;
+}
+
+.main-header nav ul li a {
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 5px 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.main-header nav ul li a:hover {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+/* --- Основной Баннер (Hero Section) --- */
+.hero-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero_background.jpg') no-repeat center center/cover; /* ВАШ ФОН */
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.hero-content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: var(--color-secondary);
+}
+
+.hero-content p {
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--color-secondary);
+    color: var(--color-white);
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--color-primary);
+    transform: translateY(-2px);
+    color: var(--color-white); /* Переопределяем цвет при наведении */
+}
+
+/* --- Секции Традиций --- */
+.tradition-section {
+    padding: 80px 0;
+}
+
+.light-bg {
+    background-color: var(--color-light-bg);
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 50px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: var(--color-secondary);
+    margin: 10px auto 0;
+}
+
+.tradition-card {
+    display: flex;
+    align-items: center;
+    gap: 40px; /* Расстояние между картинкой и текстом */
+    margin-bottom: 60px;
+}
+
+.tradition-card:last-child {
+    margin-bottom: 0;
+}
+
+.tradition-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.image-placeholder {
+    flex: 1; /* Занимает половину места */
+    min-height: 400px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    /* Стили для вставленной картинки */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-placeholder:hover {
+    transform: scale(1.02); /* Эффект при наведении */
+}
+
+.text-content {
+    flex: 1; /* Занимает половину места */
+}
+
+.text-content h4 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: var(--color-secondary);
+}
+
+.text-content p {
+    margin-bottom: 15px;
+    font-size: 1.05em;
+}
+
+/* --- Футер (Подвал) --- */
+.main-footer {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
+
+
+/* --- АДАПТИВНОСТЬ (Media Queries) --- */
+@media (max-width: 900px) {
+    .tradition-card {
+        flex-direction: column; /* На маленьких экранах: Картинка сверху, текст снизу */
+        text-align: center;
+    }
+
+    .tradition-card.reverse {
+        flex-direction: column; /* То же самое для обратной карточки */
+    }
+
+    .image-placeholder {
+        min-height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        padding: 0 15px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+    }
+
+    .main-header .container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .main-header nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-header nav ul li {
+        margin: 5px 15px;
+    }
+}

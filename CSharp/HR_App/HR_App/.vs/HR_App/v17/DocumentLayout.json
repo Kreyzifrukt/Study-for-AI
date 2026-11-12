@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|c:\\users\\popov_v\\documents\\projects\\csharp1\\hr_app\\hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|c:\\users\\popov_v\\documents\\projects\\csharp1\\hr_app\\hr_app\\data\\departments.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\data\\departments.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|c:\\users\\popov_v\\documents\\projects\\csharp1\\hr_app\\hr_app\\data\\employees.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\data\\employees.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employees.txt",
+              "DocumentMoniker": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Data\\Employees.txt",
+              "RelativeDocumentMoniker": "HR_App\\Data\\Employees.txt",
+              "ToolTip": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Data\\Employees.txt",
+              "RelativeToolTip": "HR_App\\Data\\Employees.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-17T09:52:41.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Departments.txt",
+              "DocumentMoniker": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Data\\Departments.txt",
+              "RelativeDocumentMoniker": "HR_App\\Data\\Departments.txt",
+              "ToolTip": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Data\\Departments.txt",
+              "RelativeToolTip": "HR_App\\Data\\Departments.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-17T09:51:46.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Form1.cs",
+              "RelativeDocumentMoniker": "HR_App\\Form1.cs",
+              "ToolTip": "C:\\Users\\popov_v\\Documents\\Projects\\CSharp1\\HR_App\\HR_App\\Form1.cs [Design]",
+              "RelativeToolTip": "HR_App\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-17T08:43:12.792Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

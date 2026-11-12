@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ДУЖЕ СТРАШНІ РАКИ — Смертельний Смак!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Oswald:wght@400;700&family=Ruslan+Display&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --horror-red: #bc0000;
+            --acid-green: #39ff14;
+            --dark-pitch: #050505;
+            --ghost-white: #f0f0f0;
+        }
+
+        body {
+            background-color: var(--dark-pitch);
+            color: var(--ghost-white);
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+        }
+
+        h1, h2, h3, .horror-font {
+            font-family: 'Creepster', cursive;
+            text-transform: uppercase;
+        }
+
+        /* Анімація появи */
+        .fade-in {
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Шапка сайту */
+        header {
+            height: 100vh;
+            background: linear-gradient(0deg, var(--dark-pitch) 0%, rgba(0,0,0,0.4) 50%, var(--dark-pitch) 100%),
+                        url('https://images.unsplash.com/photo-16200551713cc0-7987f2722026?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .main-title {
+            font-size: clamp(3rem, 10vw, 7rem);
+            color: var(--horror-red);
+            text-shadow: 0 0 20px black, 0 0 30px var(--horror-red);
+            margin: 0;
+            line-height: 0.9;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: var(--acid-green);
+            background: rgba(0,0,0,0.8);
+            padding: 10px 30px;
+            border: 2px solid var(--acid-green);
+            margin-top: 20px;
+            transform: rotate(-2deg);
+        }
+
+        /* Секції */
+        .section {
+            padding: 100px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Блок з товарами */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .card {
+            background: #111;
+            border: 1px solid #333;
+            padding: 30px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-10px) scale(1.02);
+            border-color: var(--horror-red);
+            box-shadow: 0 0 40px rgba(188, 0, 0, 0.4);
+        }
+
+        .card h3 {
+            font-size: 2rem;
+            color: var(--horror-red);
+        }
+
+        .price-tag {
+            font-size: 2.5rem;
+            display: block;
+            margin: 20px 0;
+            color: var(--acid-green);
+        }
+
+        /* Кнопка */
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: var(--horror-red);
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            border-radius: 5px;
+            transition: 0.3s;
+            border: none;
+            cursor: pointer;
+            box-shadow: 5px 5px 0px #400;
+        }
+
+        .btn:hover {
+            background: var(--acid-green);
+            color: black;
+            box-shadow: 0 0 20px var(--acid-green);
+        }
+
+        /* Секція "Секретна Лабораторія" (Про нас) */
+        .about-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 40px;
+            background: #1a1a1a;
+            padding: 40px;
+            border-left: 10px solid var(--horror-red);
+        }
+
+        .about-text { flex: 1; min-width: 300px; }
+        .about-img { flex: 1; min-width: 300px; font-size: 5rem; text-align: center; }
+
+        /* Відгуки */
+        .review {
+            font-style: italic;
+            border-bottom: 1px solid #444;
+            padding: 20px 0;
+        }
+
+        /* Футер */
+        footer {
+            background: #000;
+            padding: 60px 20px;
+            text-align: center;
+            border-top: 5px solid var(--horror-red);
+        }
+
+        .marquee {
+            background: var(--horror-red);
+            color: white;
+            padding: 10px 0;
+            font-weight: bold;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        /* Кастомізація скролбару */
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #111; }
+        ::-webkit-scrollbar-thumb { background: var(--horror-red); }
+
+    </style>
+</head>
+<body>
+
+    <div class="marquee">
+        УВАГА: РАКИ МОЖУТЬ ВКУСИТИ ЗА ПАЛЕЦЬ, ЯКЩО ВИ НЕ ПОДІЛИТЕСЯ НИМИ З ДРУЗЯМИ! АКЦІЯ: 1+1 = 3 (ТРЕТІЙ РАК ПРИЙДЕ ДО ТЕБЕ УВІ СНІ!)! • ДОСТАВКА ПРАЦЮЄ НАВІТЬ ПІД ЧАС АПОКАЛІПСИСУ • ТЕЛЕФОНУЙ: 0-800-RAK-SOS
+    </div>
+
+    <header>
+        <h1 class="main-title">ДУЖЕ СТРАШНІ<br>РАКИ</h1>
+        <p class="subtitle">ТИ ЗАКРИВ ДВЕРІ? А КЛЕШНІ ВЖЕ ВСЕРЕДИНІ...</p>
+        <div style="margin-top: 40px;">
+            <a href="#catalog" class="btn">ОБРАТИ СВОЮ ЖЕРТВУ</a>
+        </div>
+    </header>
+
+    <section class="section" id="catalog">
+        <h2 style="font-size: 3.5rem; text-align: center;">НАШЕ "ЖАХЛИВЕ" МЕНЮ</h2>
+        <div class="grid">
+
+            <div class="card">
+                <h3>"КРИК" (Дрібні)</h3>
+                <p>Вони маленькі, але їх багато. Вони оточать твій стіл швидше, ніж підлітки в лісі!</p>
+                <span class="price-tag">450 грн <small>/ 0.5кг</small></span>
+                <button class="btn">КУПИТИ</button>
+            </div>
+
+            <div class="card">
+                <h3>"ДЗВІНОК" (Середні)</h3>
+                <p>Через 7 днів... ні, через 7 хвилин після замовлення вони будуть у тебе в каструлі!</p>
+                <span class="price-tag">850 грн <small>/ кг</small></span>
+                <button class="btn">ЗАМОВИТИ</button>
+            </div>
+
+            <div class="card" style="border: 2px solid var(--acid-green);">
+                <h3 style="color: var(--acid-green);">"ГОДЗИЛЛА-РАК" (Елітні)</h3>
+                <p>Найбільші особини в Україні. Обережно: під час варки можуть почати давати поради по життю.</p>
+                <span class="price-tag">1400 грн <small>/ кг</small></span>
+                <button class="btn">РИЗИКНУТИ</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section" style="background: #0a0a0a;">
+        <div class="about-box">
+            <div class="about-text">
+                <h2 class="horror-font" style="font-size: 2.5rem;">ЧОМУ МИ?</h2>
+                <p>Ми не просто продаємо раків, ми створюємо гастрономічний трилер. Кожен наш рак проходить кастинг у найкращих водоймах країни.</p>
+                <ul>
+                    <li><b>ЖИВІ:</b> Шевеляться так, ніби планують втечу.</li>
+                    <li><b>БРУТАЛЬНІ:</b> Смак такий потужний, що сусіди викличуть поліцію від заздрощів.</li>
+                    <li><b>СЕКРЕТНІ СПЕЦІЇ:</b> Варимо за рецептом, який ми вкрали у привида кухаря.</li>
+                </ul>
+            </div>
+            <div class="about-img">
+                🦞🔪🔥
+                <p style="font-size: 1rem; color: #666;">(Рак готується до зустрічі з кропом)</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="horror-font" style="text-align: center;">ВІДГУКИ ВИЖИВШИХ</h2>
+        <div class="review">
+            <p>"Я замовив 3 кг 'Годзилли'. Коли відкрив пакунок, один рак відібрав у мене пульт і перемкнув на футбол. Було дуже смачно, 10/10!"</p>
+            <small>— Сідні П., м. Київ</small>
+        </div>
+        <div class="review">
+            <p>"Доставка приїхала в масці клоуна. Я злякався, але раки були такі свіжі, що ми разом з кур'єром їх зварили. Рекомендую!"</p>
+            <small>— Дмитро Ш., м. Одеса</small>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="horror-font">НЕ БІЙСЯ... ПРОСТО ЇЖ!</h2>
+        <p>м. Київ, вул. колотушкина  (за кутом біля цвинтаря дієт)</p>
+        <p>Тел: +38 (098) 555 35 35 </p>
+        <div style="margin-top: 30px; opacity: 0.5;">
+            <p>&copy; 2026 Дуже Страшні Раки. Всі права захищені. Раки не є зброєю масового ураження (але це не точно).</p>
+        </div>
+    </footer>
+
+</body>
+</html>

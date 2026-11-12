@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Kods\\C#\\HR_App\\HR_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\services\\departmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\services\\departmentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|e:\\kods\\c#\\hr_app\\hr_app\\hr_app\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B279107-3F0E-47CF-9822-ECBB9E1636E6}|HR_App\\HR_App.csproj|solutionrelative:hr_app\\models\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Form1.cs",
+              "RelativeDocumentMoniker": "HR_App\\Form1.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Form1.cs",
+              "RelativeToolTip": "HR_App\\Form1.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T08:44:23.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "HR_App\\Services\\EmployeeService.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "HR_App\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:24:18.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Form1.cs",
+              "RelativeDocumentMoniker": "HR_App\\Form1.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "HR_App\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T10:20:52.88Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentsService.cs",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Services\\DepartmentsService.cs",
+              "RelativeDocumentMoniker": "HR_App\\Services\\DepartmentsService.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Services\\DepartmentsService.cs",
+              "RelativeToolTip": "HR_App\\Services\\DepartmentsService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T09:41:13.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "HR_App\\Models\\Employee.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Models\\Employee.cs",
+              "RelativeToolTip": "HR_App\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T08:40:53.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Department.cs",
+              "DocumentMoniker": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Models\\Department.cs",
+              "RelativeDocumentMoniker": "HR_App\\Models\\Department.cs",
+              "ToolTip": "E:\\Kods\\C#\\HR_App\\HR_App\\HR_App\\Models\\Department.cs",
+              "RelativeToolTip": "HR_App\\Models\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-28T09:41:06.706Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

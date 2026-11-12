@@ -1,0 +1,7 @@
+E:\Kods\C#\Classiki\Classiki\bin\Debug\Classiki.exe.config
+E:\Kods\C#\Classiki\Classiki\bin\Debug\Classiki.exe
+E:\Kods\C#\Classiki\Classiki\bin\Debug\Classiki.pdb
+E:\Kods\C#\Classiki\Classiki\obj\Debug\Classiki.csproj.AssemblyReference.cache
+E:\Kods\C#\Classiki\Classiki\obj\Debug\Classiki.csproj.CoreCompileInputs.cache
+E:\Kods\C#\Classiki\Classiki\obj\Debug\Classiki.exe
+E:\Kods\C#\Classiki\Classiki\obj\Debug\Classiki.pdb

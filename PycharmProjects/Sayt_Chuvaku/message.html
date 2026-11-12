@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AutoParts KZ — Автокөлік бөлшектері интернет-дүкені</title>
+  <meta name="description" content="AutoParts KZ — Қазақстандағы сенімді автокөлік бөлшектерінің дүкені: майлар, шиналар, фильтрлер, аксессуарлар және тағы басқа." />
+  <style>
+    :root{
+      --accent:#0b6efd;
+      --muted:#6b7280;
+      --bg:#0f1724;
+      --card:#ffffff;
+      --surface:#0b1220;
+      --glass: rgba(255,255,255,0.04);
+      --max-width:1200px;
+      --radius:12px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:linear-gradient(180deg,#071025 0%, #081422 100%); color:#e6eef8; -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:var(--max-width); margin:24px auto; padding:0 18px;}
+
+    header{
+      display:flex; align-items:center; justify-content:space-between; gap:16px; padding:18px; background:transparent;
+    }
+    .brand{display:flex; gap:12px; align-items:center}
+    .logo{width:48px; height:48px; background:linear-gradient(135deg,var(--accent),#7c3aed); border-radius:10px; display:grid; place-items:center; font-weight:700; color:white}
+    .brand h1{font-size:18px; margin:0}
+    nav a{color:var(--muted); text-decoration:none; margin-left:18px}
+    .top-contacts{display:flex; gap:12px; align-items:center}
+    .btn{background:var(--accent); color:white; border:none; padding:10px 14px; border-radius:10px; cursor:pointer}
+
+    /* Hero */
+    .hero{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:28px; border-radius:14px; display:flex; gap:20px; align-items:center}
+    .hero .left{flex:1}
+    .hero h2{margin:0 0 8px 0; font-size:28px}
+    .hero p{margin:0 0 16px 0; color:var(--muted)}
+
+    /* Products grid */
+    .products{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:20px}
+    @media (max-width:1000px){.products{grid-template-columns:repeat(2,1fr)}}
+    @media (max-width:640px){.products{grid-template-columns:1fr}}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent); padding:14px; border-radius:12px; display:flex; gap:12px; align-items:center}
+    .card img{width:120px; height:80px; border-radius:8px; object-fit:contain; background:var(--glass); flex-shrink:0}
+    .card .meta{flex:1}
+    .card .meta h3{margin:0 0 6px 0; font-size:16px}
+    .price{font-weight:700; color: #bde0ff}
+    .small{font-size:13px; color:var(--muted)}
+
+    /* About & Contact */
+    .columns{display:grid; grid-template-columns:1fr 320px; gap:18px; margin-top:22px}
+    @media (max-width:900px){.columns{grid-template-columns:1fr}}
+    .box{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); padding:18px; border-radius:12px}
+
+    /* FAQ accordion */
+    .faq .q{border-bottom:1px solid rgba(255,255,255,0.04); padding:12px 0; cursor:pointer; display:flex; justify-content:space-between}
+    .faq .a{padding:8px 0; color:var(--muted); display:none}
+
+    footer{margin-top:28px; padding:20px; color:var(--muted); text-align:center}
+
+    /* small utilities */
+    .tags{display:flex; gap:8px; flex-wrap:wrap; margin-top:8px}
+    .tag{background:rgba(255,255,255,0.03); padding:6px 8px; border-radius:8px; color:var(--muted); font-size:13px}
+
+    /* product grid visual tweak to appear like 3x5 gallery */
+    .gallery{display:grid; grid-template-columns:repeat(5,1fr); gap:8px; margin-top:16px}
+    @media (max-width:1200px){.gallery{grid-template-columns:repeat(3,1fr)}}
+    @media (max-width:700px){.gallery{grid-template-columns:repeat(2,1fr)}}
+    .gallery .gitem{background:var(--glass); border-radius:8px; padding:12px; text-align:center}
+    .gitem img{width:100%; height:110px; object-fit:contain; border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">AP</div>
+        <div>
+          <h1>AutoParts KZ</h1>
+          <div class="small">Сіздің көлігіңізге сенімді бөлшектер</div>
+        </div>
+      </div>
+      <nav aria-label="Негізгі меню">
+        <a href="#products">Тауарлар</a>
+        <a href="#about">Компания туралы</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Байланыс</a>
+      </nav>
+      <div class="top-contacts">
+        <div class="small">📞 +7 (777) 123-45-67</div>
+        <button class="btn">Сатып алу</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="left">
+        <h2>Сапалы бөлшектер — жылдам жеткізу</h2>
+        <p>AutoParts KZ — Қазақстандағы жүргізушілерге арналған майлар, шиналар, фильтрлер және аксессуарлар. Тапсырысты жылдам өңдеу мен кепілдікпен жеткізу.</p>
+        <div class="tags">
+          <div class="tag">Түпнұсқа</div>
+          <div class="tag">Тез жеткізу</div>
+          <div class="tag">Кепілдік</div>
+        </div>
+      </div>
+      <div class="right">
+        <!-- visual placeholder -->
+        <img src="https://via.placeholder.com/360x200?text=Auto+Service+Hero" alt="Auto service" style="border-radius:12px; width:360px; height:200px; object-fit:cover;">
+      </div>
+    </section>
+
+    <!-- Products (15) as cards -->
+    <section id="products" aria-label="Тауарлар">
+      <h2 style="margin-top:20px">Танымал өнімдер</h2>
+      <div class="products">
+        <!-- 1 -->
+        <article class="card">
+          <img src="img/1.jpg" alt="Castrol EDGE 5W-40">/*
+          <div class="meta">
+            <h3>Мотор майы — Castrol EDGE 5W-40</h3>
+            <div class="small">Жоғары өнімді синтетикалық май, қозғалтқышты қорғау үшін.</div>
+            <div class="price">6 500 тг</div>
+          </div>
+        </article>
+
+        <!-- 2 -->
+        <article class="card">
+          <img src="img/2.jpg" alt="Michelin Primacy 4+">
+          <div class="meta">
+            <h3>Шина — Michelin Primacy 4+</h3>
+            <div class="small">Ылғалды және құрғақ жолда тамаша ілінісу.</div>
+            <div class="price">25 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 3 -->
+        <article class="card">
+          <img src="img/3.jpg" alt="Philips H7">
+          <div class="meta">
+            <h3>Шам — Philips H7 X-tremeVision+</h3>
+            <div class="small">Түнгі уақытта көріністі айтарлықтай жақсартады.</div>
+            <div class="price">9 200 тг</div>
+          </div>
+        </article>
+
+        <!-- 4 -->
+        <article class="card">
+          <img src="img/4.jpg" alt="Bosch Filter Set">
+          <div class="meta">
+            <h3>Bosch сүзгі жиынтығы</h3>
+            <div class="small">Ауа, май және салон сүзгілері — толық жинақ.</div>
+            <div class="price">7 800 тг</div>
+          </div>
+        </article>
+
+        <!-- 5 -->
+        <article class="card">
+          <img src="img/5.jpg" alt="K&N Air Filter">
+          <div class="meta">
+            <h3>K&N ауа сүзгісі</h3>
+            <div class="small">Спорттық сүзгі, ауа өткізгіштігін арттырады.</div>
+            <div class="price">12 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 6 -->
+        <article class="card">
+          <img src="img/6.jpg" alt="Mobil 1 ATF">
+          <div class="meta">
+            <h3>Трансмиссия майы — Mobil 1 ATF</h3>
+            <div class="small">Автомат қораптарына арналған жоғары сапалы май.</div>
+            <div class="price">8 500 тг</div>
+          </div>
+        </article>
+
+        <!-- 7 -->
+        <article class="card">
+          <img src="img/7.jpg" alt="Varta 60Ah">
+          <div class="meta">
+            <h3>Аккумулятор — Varta Blue Dynamic 60Ah</h3>
+            <div class="small">Сенімді іске қосу, ұзақ қызмет мерзімі.</div>
+            <div class="price">39 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 8 -->
+        <article class="card">
+          <img src="img/8.jpg" alt="Turtle Wax">
+          <div class="meta">
+            <h3>Полироль — Turtle Wax</h3>
+            <div class="small">Кузовқа жылтыр беріп, қорғау қабатын қалыптастырады.</div>
+            <div class="price">4 200 тг</div>
+          </div>
+        </article>
+
+        <!-- 9 -->
+        <article class="card">
+          <img src="img/9.jpg" alt="Seat Covers">
+          <div class="meta">
+            <h3>Орындық қаптамасы (эко-тері)</h3>
+            <div class="small">Сәнді және жайлы — салоныңызға жаңа көрініс.</div>
+            <div class="price">15 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 10 -->
+        <article class="card">
+          <img src="img/10.jpg" alt="Liqui Moly Engine Flush">
+          <div class="meta">
+            <h3>Қозғалтқыш жуу — Liqui Moly</h3>
+            <div class="small">Шөгінділерді тазалап, майды алмастыру алдындағы күту.</div>
+            <div class="price">5 100 тг</div>
+          </div>
+        </article>
+
+        <!-- 11 -->
+        <article class="card">
+          <img src="img/15.jpg" alt="Pioneer Stereo">
+          <div class="meta">
+            <h3>Автомузыка — Pioneer</h3>
+            <div class="small">Bluetooth, USB және сапалы дыбыс.</div>
+            <div class="price">28 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 12 -->
+        <article class="card">
+          <img src="img/11.jpg" alt="Mann Oil Filter">
+          <div class="meta">
+            <h3>Mann май сүзгісі</h3>
+            <div class="small">Неміс сапасы — қозғалтқыш майын таза ұстайды.</div>
+            <div class="price">3 500 тг</div>
+          </div>
+        </article>
+
+        <!-- 13 -->
+        <article class="card">
+          <img src="img/12.jpg" alt="Nokian Hakkapeliitta R5">
+          <div class="meta">
+            <h3>Қыстық шина — Nokian Hakkapeliitta R5</h3>
+            <div class="small">Мұзда және қарда сенімді ілінісу.</div>
+            <div class="price">41 000 тг</div>
+          </div>
+        </article>
+
+        <!-- 14 -->
+        <article class="card">
+          <img src="img/13.jpg" alt="Baseus Charger">
+          <div class="meta">
+            <h3>Зарядтау құрылғысы — Baseus 45W</h3>
+            <div class="small">Тез зарядтау, 2xUSB.</div>
+            <div class="price">6 800 тг</div>
+          </div>
+        </article>
+
+        <!-- 15 -->
+        <article class="card">
+          <img src="img/14.jpg" alt="Magnetic Phone Mount">
+          <div class="meta">
+            <h3>Магнитті телефон ұстағыш (360°)</h3>
+            <div class="small">Телефонды сенімді ұстап, жолға назар аударуға көмектеседі.</div>
+            <div class="price">3 200 тг</div>
+          </div>
+        </article>
+      </div>
+
+      <!-- gallery visual of 15 photos (3x5) -->
+      <div class="gallery" aria-hidden="true">
+        <!-- Using placeholders — ideally replace with real service photos where each item has "auto service" background -->
+        <div class="gitem"><img src="img/1.jpg" alt=""></div>
+        <div class="gitem"><img src="img/2.jpg" alt=""></div>
+        <div class="gitem"><img src="img/3.jpg" alt=""></div>
+        <div class="gitem"><img src="img/4.jpg" alt=""></div>
+        <div class="gitem"><img src="img/5.jpg" alt=""></div>
+        <div class="gitem"><img src="img/6.jpg" alt=""></div>
+        <div class="gitem"><img src="img/7.jpg" alt=""></div>
+        <div class="gitem"><img src="img/8.jpg" alt=""></div>
+        <div class="gitem"><img src="img/9.jpg" alt=""></div>
+        <div class="gitem"><img src="img/10.jpg" alt=""></div>
+        <div class="gitem"><img src="img/11.jpg" alt=""></div>
+        <div class="gitem"><img src="img/12.jpg" alt=""></div>
+        <div class="gitem"><img src="img/13.jpg" alt=""></div>
+        <div class="gitem"><img src="img/14.jpg" alt=""></div>
+        <div class="gitem"><img src="img/15.jpg" alt=""></div>
+      </div>
+    </section>
+
+    <!-- About & Contact columns -->
+    <div class="columns">
+      <div>
+        <section id="about" class="box">
+          <h3>Компания туралы</h3>
+          <p><strong>AutoParts KZ</strong> — Қазақстандағы жүргізушілерге сапалы және қолжетімді автокөлік бөлшектерін ұсынуға арналған онлайн-дүкен. Біз әр клиенттің көлігіне лайық май, шина және аксессуар табуға көмектесеміз.</p>
+          <ul>
+            <li>Түпнұсқа және сертификатталған өнімдер</li>
+            <li>Жылдам өңдеу және жеткізу</li>
+            <li>Кәсіби кеңес және кепілдік</li>
+          </ul>
+        </section>
+
+        <section id="faq" class="box" style="margin-top:16px">
+          <h3>FAQ — Жиі қойылатын сұрақтар</h3>
+          <div class="faq">
+            <div class="q">1. Тауарлар түпнұсқа ма? <span class="small">+</span></div>
+            <div class="a">Иә, барлық өнімдер ресми жеткізушілерден алынады және сапа кепілдігі бар.</div>
+
+            <div class="q">2. Жеткізу уақыты қанша? <span class="small">+</span></div>
+            <div class="a">Қала ішінде — 1–2 жұмыс күні, басқа өңірлерге — 3–5 жұмыс күні.</div>
+
+            <div class="q">3. Тауарды қайтаруға бола ма? <span class="small">+</span></div>
+            <div class="a">Иә, егер тауар зақымдалған немесе сәйкес келмесе, 14 күн ішінде қайтаруға немесе айырбастауға болады.</div>
+
+            <div class="q">4. Қандай төлем түрлері қолжетімді? <span class="small">+</span></div>
+            <div class="a">Kaspi QR, банк картасы және қолма-қол төлем қабылданады.</div>
+          </div>
+        </section>
+      </div>
+
+      <aside id="contact" class="box">
+        <h3>Байланыс</h3>
+        <p><strong>AutoParts KZ</strong></p>
+        <p>📞 Телефон: <a href="tel:+77771234567" style="color: #bde0ff; text-decoration:none">+7 (777) 123-45-67</a></p>
+        <p>✉️ Электрондық пошта: <a href="mailto:support@autoparts.kz" style="color:#bde0ff; text-decoration:none">support@autoparts.kz</a></p>
+        <p>📍 Мекенжай: Алматы қ., Төле би көшесі, 101</p>
+
+        <h4 style="margin-top:12px">Жұмыс уақыты</h4>
+        <p class="small">Дүйсенбі - Жұма: 09:00 — 18:00 <br> Сенбі: 10:00 — 15:00 <br> Жексенбі: демалыс</p>
+
+        <div style="margin-top:12px">
+          <button class="btn" onclick="location.href='#products'">Тауарларымызды қарау</button>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © <span id="year"></span> AutoParts KZ — Барлық құқықтар қорғалған. | Политика конфиденциалдығы
+    </footer>
+  </div>
+
+  <script>
+    // FAQ accordion
+    document.querySelectorAll('.faq .q').forEach(q=>{
+      q.addEventListener('click', ()=>{
+        const a = q.nextElementSibling;
+        const isVisible = a.style.display === 'block';
+        document.querySelectorAll('.faq .a').forEach(x=>x.style.display='none');
+        if(!isVisible) a.style.display='block';
+      })
+    })
+
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

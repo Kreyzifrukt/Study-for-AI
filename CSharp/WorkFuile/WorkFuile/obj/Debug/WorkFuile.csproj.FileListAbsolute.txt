@@ -1,0 +1,7 @@
+E:\Kods\C#\WorkFuile\WorkFuile\bin\Debug\WorkFuile.exe.config
+E:\Kods\C#\WorkFuile\WorkFuile\bin\Debug\WorkFuile.exe
+E:\Kods\C#\WorkFuile\WorkFuile\bin\Debug\WorkFuile.pdb
+E:\Kods\C#\WorkFuile\WorkFuile\obj\Debug\WorkFuile.csproj.AssemblyReference.cache
+E:\Kods\C#\WorkFuile\WorkFuile\obj\Debug\WorkFuile.csproj.CoreCompileInputs.cache
+E:\Kods\C#\WorkFuile\WorkFuile\obj\Debug\WorkFuile.exe
+E:\Kods\C#\WorkFuile\WorkFuile\obj\Debug\WorkFuile.pdb

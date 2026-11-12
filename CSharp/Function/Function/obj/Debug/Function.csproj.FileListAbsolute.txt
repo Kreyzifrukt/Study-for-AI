@@ -1,0 +1,7 @@
+E:\Kods\C#\Function\Function\bin\Debug\Function.exe.config
+E:\Kods\C#\Function\Function\bin\Debug\Function.exe
+E:\Kods\C#\Function\Function\bin\Debug\Function.pdb
+E:\Kods\C#\Function\Function\obj\Debug\Function.csproj.AssemblyReference.cache
+E:\Kods\C#\Function\Function\obj\Debug\Function.csproj.CoreCompileInputs.cache
+E:\Kods\C#\Function\Function\obj\Debug\Function.exe
+E:\Kods\C#\Function\Function\obj\Debug\Function.pdb

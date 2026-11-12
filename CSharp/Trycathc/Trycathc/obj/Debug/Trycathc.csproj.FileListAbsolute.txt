@@ -1,0 +1,7 @@
+E:\Kods\C#\Trycathc\Trycathc\bin\Debug\Trycathc.exe.config
+E:\Kods\C#\Trycathc\Trycathc\bin\Debug\Trycathc.exe
+E:\Kods\C#\Trycathc\Trycathc\bin\Debug\Trycathc.pdb
+E:\Kods\C#\Trycathc\Trycathc\obj\Debug\Trycathc.csproj.AssemblyReference.cache
+E:\Kods\C#\Trycathc\Trycathc\obj\Debug\Trycathc.csproj.CoreCompileInputs.cache
+E:\Kods\C#\Trycathc\Trycathc\obj\Debug\Trycathc.exe
+E:\Kods\C#\Trycathc\Trycathc\obj\Debug\Trycathc.pdb
